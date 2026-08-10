@@ -1,10 +1,8 @@
 <?php
 session_start();
-// If not logged in, kick them back to login page
-if (!isset($_SESSION['logged_in'])) {
+if (!isset($_SESSION['user'])) {
     header("Location: login.php");
     exit();
 }
+echo "<h1>Welcome to Home Page, " . $_SESSION['user'] . "</h1>";
 ?>
-<h1>Welcome to the Home Page</h1>
-<a href="logout.php">Logout</a>
