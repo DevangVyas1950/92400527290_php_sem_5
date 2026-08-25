@@ -1,0 +1,1 @@
+<?php echo "Hello from info.php! <br>"; ?>
