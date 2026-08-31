@@ -1,4 +1,4 @@
-hum tum ek kamre main bandh ho <?php
+<?php
 $conn = mysqli_connect("localhost", "root", "", "my_database");
 
 if (!$conn) {
