@@ -1,4 +1,4 @@
-tum prem ho tum preett ho <?php
+ <?php
 $conn = mysqli_connect("localhost", "root", "", "my_database");
 
 if (!$conn) {
